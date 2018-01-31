@@ -1,0 +1,120 @@
+Section 2
+Ryan Kusch, Brittany Wang
+
+##########
+# Part D #
+##########
+
+1. The "git help" command prints out usage with different flags that can be used
+   as well as different git commands that can be run as well as what they do, 
+   categorized to be with commands that have similar functions.
+2. The "git help -ag" command lists available subcommands and concept guides.
+
+##########
+# Part E #
+##########
+
+1. The "git config --global user.name" and "git config --global user.email" commands
+   sets up the user name and email address to be used for any Git commits and projects.
+2. The "--global" option means that this particular information is applied for anything
+   done on the given system. This means that you don't have to keep adding the name and
+   email every time.
+
+##########
+# Part F #
+##########
+
+1. You can display all files (including hidden files) using the "ls -a" command.
+2. There are two hidden files in the directory "./" and "../".
+4. The "git init" command created a new hidden file, ".git/", in the directory.
+   This is an empty Git repository.
+5. I think that the repository would be deleted if you deleted ".git". However,
+   the local copy of the directory would still remain.
+6. You could look at the project directory and if it contains the ".git/" directory
+   then you know this project is still being managed using git.
+
+##########
+# Part G #
+##########
+
+1. You can display all files (including hidden files) using the "ls -a" command.
+2. There are two hidden files in the directory "./" and "../".
+4. The "git init" command created a new hidden file, ".git/", in the directory.
+   This is an empty Git repository.
+5. I think that the repository would be deleted if you deleted ".git". However,
+   the local copy of the directory would still remain.
+6. You could look at the project directory and if it contains the ".git/" directory
+   then you know this project is still being managed using git.
+
+##########
+# Part G #
+##########
+
+1. The "git status" command reports whether there are any changes being tracked,
+   what files have been modified in some way or need to be committed, and what 
+   branch you are currently on.
+2. The "git add names.txt" command adds the "names.txt" file to the changes
+   that will be committed when you run "git commit".
+3. The 'git commit -m "Add our names."' command actually commits the changes
+   that are being tracked (in this case adding "names.txt") and provides a 
+   message to go with the commit.
+4. The "git add ." command adds everything that was currently modified. I think
+   the "." means all current modifications.
+5. The "git commit" command commits the current changes, but makes you add a message
+   before that and shows you the changes that are about to be committed as well.
+6. To write a more detailed commit message, you would just use the "git commit" command
+   with no "-m" flag.
+7. The "git log" command shows a list of all the commits in chronological order with most
+   recent at the top. For each commit, it also shows information such as the author, date,
+   and commit message.
+   
+##########
+# Part H #
+##########
+
+1. Staged: (names.txt) Staged means changes that are going to be committed.
+   Unstaged: (movies.txt) Unstaged means changes that have been made but aren't going
+             to be committed yet.
+   Untracked: (books.txt) Untracked means files that have been added but have never been
+              committed and aren't going to be committed yet.
+2. If we run "git commit", the only change that will be committed is the modification 
+   to "names.txt".
+3. To stage changes, you run the "git add <filename>" command.
+4. To unstage changes, you run the "git reset <filename>" command.
+
+1. The "git diff" command displays the unstaged (but tracked) changes to files.
+2. The "git diff --cached" command displays the staged changes to files.
+3. Commands: "git reset names.txt" then "git add movies.txt". They worked.
+4. Now "movies.txt" is in both the staged and unstaged sections. I think the staged
+   change to movies is still the original changed and the unstaged change is the new
+   change. Running "git add movies.txt" will leave only one "movies.txt" and it will 
+   be the new change in the staged section.
+5. Now it says "deleted: names.txt". This change is still unstaged, but I think adding
+   and committing will actually delete the file.
+6. Now "movies.txt" is unstaged and will be deleted while "last-movies.txt" is untracked.
+   Renaming the file effectively deleted the old one and created a new file with a new name,
+   which means that the new file is now untracked.
+7. Commands: "git add ." then "git commit -m 'message'". They worked.
+8. Index, cache, and stage all hold the changes that are staged.
+9. Having a stage allows you to commit only some changes for now and save some for later in 
+   case you want to work on something now but not actually commit it. 
+
+##########
+# Part I #
+##########
+
+1. The 'git reset --soft "HEAD^"' command undoes the last commit, but the changes stay 
+   in your working tree.
+
+1. The 'git reset --hard "HEAD^"' command undoes the last commit, and the changes
+   do not stay in your working tree.
+2. "--hard" is more permanent than "--soft" as it ta.
+3. I think "HEAD" means the branch that you're currently working on.
+4. I think "HEAD^" means the master branch of whatever you're working on.
+   tree and doesn't just undo. It undoes and deletes
+
+
+# Part H #
+#######
+1
+
