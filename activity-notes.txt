@@ -111,10 +111,5 @@ Ryan Kusch, Brittany Wang
 2. "--hard" is more permanent than "--soft" as it ta.
 3. I think "HEAD" means the branch that you're currently working on.
 4. I think "HEAD^" means the master branch of whatever you're working on.
-   tree and doesn't just undo. It undoes and deletes
-
-
-# Part H #
-#######
-1
-
+   tree and doesn't just undo. It undoes and deletes.
+   
